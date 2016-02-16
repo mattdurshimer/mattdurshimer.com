@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
 
-    <div class="page-content">
+
+    <div class="callout main">
+      <div class="wrapper">
+        <div class="description">
+          <h1>Matt Durshimer</h1>
+          <p class="subtitle">Subtitle goes here</p>
+        </div>
+        <img src="http://placecage.com/400/300" />
+      </div>
+    </div>
+    <div class="content">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
 
     {% include footer.html %}
-
   </body>
-
 </html>
